@@ -49,7 +49,7 @@ header span{
 /* SLIDING IMAGES */
 figure{
     margin-top: 2%;
-    margin-bottom: 40%;
+    margin-bottom: 25%;
 }
 #slider-images{
     overflow: hidden;
@@ -86,10 +86,11 @@ figure{
     position: fixed;
     text-align:center;
     color: orange;
-    font-size: x-large;
-    font-weight: 700;
+    font-size: xx-large;
+    font-weight: 800;
     padding-left:10%;
     padding-top: 15%;
+    text-shadow: 4px 6px 7px;
 }
 
 @keyframes animate{
@@ -106,4 +107,11 @@ figure{
     86%{left:-400%}
     94%{right:0%}
     98%{right:0%}
+}
+
+/* SECTION PART */
+section{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
 }
