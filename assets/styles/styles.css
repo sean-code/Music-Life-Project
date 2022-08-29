@@ -1,4 +1,4 @@
-/* Nav Bar */
+/* HEADER*/
 *{
     margin:0;
     padding: 0;
@@ -20,3 +20,11 @@ header span{
     font-size:medium;
     color: yellowgreen
 }
+
+/* MAIN CONTENT */
+#form{
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+}
+
