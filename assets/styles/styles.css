@@ -50,8 +50,8 @@ header span{
     width: 20%;
 }
 #slider-images figure img{
-    width:100%;
-    height:95vh;
+    width:40%;
+    height:50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,13 +60,28 @@ header span{
 #slider-images figure{
     position:relative;
     width: 500%;
-    margin:0;
-    animation:animate 5s infinite;
+    margin-left:30%;
+    animation:animate 20s infinite;
 }
 .slides p{
     position: fixed;
     text-align: center;
     color: white;
     font-size: x-large;
-    padding-left: 50%;
+    padding-left: 10%;
+}
+
+@keyframes animate{
+    0%{left:0}
+    10%{left:0}
+    12%{left:0}
+    20%{left:-100%}
+    30%{left:-100%}
+    40%{left:-200%}
+    50%{left:-200%}
+    60%{left:-300%}
+    70%{left:-300%}
+    80%{left:-400%}
+    96%{left:-400%}
+    100%{left:-0%}
 }
