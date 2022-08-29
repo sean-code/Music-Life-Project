@@ -23,7 +23,7 @@ header span{
 
 /*  */
 #container{
-    background:rgba(0, 0, 0, 0.4)url('../images/Party-Rave.jpg');
+    background:rgba(0, 0, 0, 0.8)url('../images/Party-Rave.jpg');
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +61,7 @@ figure{
 }
 #slider-images p span{
     color: orange;
+    font-size: larger;
 }
 #slider-images figure div{
     float: left;
@@ -73,6 +74,7 @@ figure{
     background-position: center;
     background-repeat: no-repeat;
     float: left;
+    border-radius: 10%;
 }
 #slider-images figure{
     position:relative;
@@ -86,8 +88,8 @@ figure{
     color: orange;
     font-size: x-large;
     font-weight: 700;
-    padding-left:0%;
-    padding-top: 20%;
+    padding-left:10%;
+    padding-top: 15%;
 }
 
 @keyframes animate{
