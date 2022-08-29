@@ -23,8 +23,16 @@ header span{
 
 /* MAIN CONTENT */
 #form{
-    margin-top:2%;
+    margin-top:0%;
     display: flex;
     justify-content: center;
 }
-
+#form input{
+    padding: 10px;
+    width: 30%;
+}
+#form button{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 5px;
+}
