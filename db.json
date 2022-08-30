@@ -1,0 +1,78 @@
+{
+    "music": [
+      {
+        "id": 1,
+        "genre": "Hip hop",
+        "title": "Non stop",
+        "artist": "Drake",
+        "url": "https://lyricssilk.com/i-just-flipped-the-switch-drake-song-lyrics/",
+        "lyrics": "I just flipped the switch. I don't. Bodies start to drop, ayy, hit the floor. Money for revenge, man, that's hardly an expense. Palace look like Buckingham. Niggas that I knew from when I started in this shit. This a Rollie, not a stopwatch, shit don't ever stop."
+    },
+
+      {
+        "id": 2,
+        "genre": "Pop",
+        "title": "Trip",
+        "artist": "Ella Mai",
+        "url": "https://genius.com/Ella-mai-trip-lyrics",
+        "lyrics": "Oooh, yeah, yeah. I put my feelings on safety. So I don't go shootin' where your heart be. And that's a whole lotta love, ain't tryna waste it. Baby boy, your love, got me trippin' on you. My bad, my bad for, trippin' on you (Trippin' on you). My bad, my bad for, trippin' on you (Trippin' on you). Trippin' on you, yeah yeah"
+      },
+      
+      {
+        "id": 3,
+        "genre": "Rock",
+        "title": "Knockin' on Heaven's Door",
+        "artist": "Ella Mai",
+        "url": "https://www.azlyrics.com/lyrics/gunsnroses/knockingonheavensdoor.html",
+        "lyrics": "Mama, take this badge off of me. I can't use it anymore. It's gettin' dark, too dark to see. I feel like I'm knockin' on heaven's door. Knock, knock, knockin' on heaven's door. Knock, knock, knockin' on heaven's door."
+      },
+
+      {
+        "id": 4,
+        "genre": "Vocal",
+        "title": "Crazy",
+        "artist": "Kehlani",
+        "url": "https://www.azlyrics.com/lyrics/kehlani/crzy.html",
+        "lyrics": "I go, I go, I go, I go. A real woman 'bout her paper. Yeah, yeah, yeah. I kill 'em, I kill 'em, I kill 'em with compassion. Niggas don't know where I came from. Live for the challenge, only makes me stronger. You never could say I'm lacking. I'm just countin', countin' blessing's."
+      },
+
+
+      {
+        "id": 5,
+        "genre": "Trapsoul",
+        "title": "Losing Focus",
+        "artist": "Bryson Tiller",
+        "url": "https://www.azlyrics.com/lyrics/brysontiller/losingfocus.html",
+        "lyrics": " I flew a stripper in tonight. We shared intimate nights. And we shared. How do we save it. And I know it don't make no sense. 'Cause thesе conversations been bone dry. Give me dirty looks 'cause they know a lot. See I'm losin' all my focus. Cruisin' in this cold Benz. Oh, oh, yeah, yeah. All my niggas told me, You gotta stop your distractions.Focused, focused, focused (yeah)."
+      },
+
+
+      {
+        "id": 6,
+        "genre": "RNB",
+        "title": "Iffy",
+        "artist": "Chris Brown",
+        "url": "",
+        "lyrics": " "
+      },
+
+      {
+        "id": 7,
+        "genre": " ",
+        "title": " ",
+        "artist": " ",
+        "url": "",
+        "lyrics": " "
+      },
+
+
+      {
+        "id": 8,
+        "genre": "Pop",
+        "title": "Trip",
+        "artist": "Ella Mai",
+        "url": "https://genius.com/Ella-mai-trip-lyrics",
+        "lyrics": "Oooh, yeah, yeah. I put my feelings on safety. So I don't go shootin' where your heart be. And that's a whole lotta love, ain't tryna waste it. Baby boy, your love, got me trippin' on you. My bad, my bad for, trippin' on you (Trippin' on you). My bad, my bad for, trippin' on you (Trippin' on you). Trippin' on you, yeah yeah"
+      }
+    ]
+  }
