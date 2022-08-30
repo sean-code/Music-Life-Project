@@ -37,12 +37,14 @@ header span{
     justify-content: center;
 }
 #form input{
-    padding: 10px;
+    padding: 10px 40px;
     width: 30%;
+    border: none;
+    outline: none;
 }
 #form button{
     background-color: orange;
-    padding: 8px;
+    padding: 8px 10px;
     border-radius: 5px;
 }
 
@@ -82,17 +84,16 @@ figure{
     margin-left:40%;
     animation:animate 20s infinite;
 }
-.slides p{
+figure .slides p{
     position: fixed;
     text-align:center;
-    color: orange;
+    color: green;
+    background-color: orange;
     font-size: xx-large;
+    padding: 8px;
     font-weight: 800;
-    padding-left:10%;
-    padding-top: 15%;
     text-shadow: 4px 6px 7px;
 }
-
 @keyframes animate{
     0%{left:0}
     10%{left:0}
