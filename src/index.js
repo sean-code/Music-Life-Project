@@ -13,8 +13,8 @@ async function searchSongs(term) {
   }
   
 
-  
 
+  
 // Prevent Default Activity of The Form
 
 forForm.addEventListener('submit', (event) => {
