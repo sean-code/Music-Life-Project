@@ -26,21 +26,31 @@ async function searchSongs(term) {
     </ul>
    `;
 
-   if (data.prev || data.next) {
-    more.innerHTML = `
-      ${
-        data.prev
-          ? `<button class="btn" onclick="getMoreSongs('${data.prev}')">Prev</button>`
-          : ""
-      }
-      ${
-        data.next
-          ? `<button class="btn" onclick="getMoreSongs('${data.next}')">Next</button>`
-          : ""
-      }
-    `;
-  } else {
-    more.innerHTML = " ";
+    if (data.prev || data.next) {
+      more.innerHTML = `
+        ${
+          data.prev
+            ? `<button class="btn" onclick="getMoreSongs('${data.prev}')">Prev</button>`
+            : ""
+        }
+        ${
+          data.next
+            ? `<button class="btn" onclick="getMoreSongs('${data.next}')">Next</button>`
+            : ""
+        }
+      `;
+    } else {
+      more.innerHTML = " ";
+
+    }
+  }
+
+  // Fetching our songs from this server for more options of
+  async function findMoreSongs(url) {
+    const response = await fetch(`https://cors-anywhere.herokuapp.com/${url}`);
+    const data = await response.json();
+
+    showData(data);
   }
 
 
