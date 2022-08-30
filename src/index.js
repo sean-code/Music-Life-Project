@@ -67,6 +67,7 @@ async function searchSongs(term) {
       <span>${lyrics}</span>
   `;
 
+    }
   more.innerHTML = " ";
 
 
@@ -77,4 +78,7 @@ async function searchSongs(term) {
 
 forForm.addEventListener('submit', (event) => {
   event.preventDefault();
-});
+
+  const enteredItem = forSearch.value.trim();
+
+})
