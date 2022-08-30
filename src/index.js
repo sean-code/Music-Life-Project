@@ -81,4 +81,10 @@ forForm.addEventListener('submit', (event) => {
 
   const enteredItem = forSearch.value.trim();
 
+  if (!enteredItem) {
+    alert("Kindly Enter Your Search Item");
+  } else {
+    searchSongs(enteredItem);
+  }
+
 })
