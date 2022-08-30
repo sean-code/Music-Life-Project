@@ -53,6 +53,10 @@ async function searchSongs(term) {
     showData(data);
   }
 
+  async function getLyrics(artist, songTitle) {
+    
+  }
+
 
 // Prevent Default Activity of The Form
 
