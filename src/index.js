@@ -9,7 +9,7 @@ async function searchSongs(term) {
     const response = await fetch(`${baseURL}/suggest/${term}`);
     const data = await response.json();
   
-    // displayData(data);
+    displayData(data);
   }
 
   function displayData(data) {
