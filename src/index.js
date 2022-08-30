@@ -54,7 +54,22 @@ async function searchSongs(term) {
   }
 
   async function getLyrics(artist, songTitle) {
-    
+    const response = await fetch(`${apiURL}/v1/${artist}/${songTitle}`);
+    const data = await response.json();
+
+    if (data.error) {
+      result.innerHTML = data.error;
+    } else {
+      const lyrics = data.lyrics.replace(/(\r\n|\r|\n)/g, "<br>");
+
+      result.innerHTML = `
+      <h2><b>${artist}</b> - ${songTitle}</h2>
+      <span>${lyrics}</span>
+  `;
+
+  more.innerHTML = " ";
+
+
   }
 
 
@@ -62,5 +77,4 @@ async function searchSongs(term) {
 
 forForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  
-})
+});
