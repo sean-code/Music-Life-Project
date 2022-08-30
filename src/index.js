@@ -27,7 +27,7 @@ async function searchSongs(term) {
    `;
 
     if (data.prev || data.next) {
-      more.innerHTML = `
+      forMore.innerHTML = `
         ${
           data.prev
             ? `<button class="btn" onclick="getMoreSongs('${data.prev}')">Prev</button>`
@@ -40,7 +40,7 @@ async function searchSongs(term) {
         }
       `;
     } else {
-      more.innerHTML = " ";
+      forMore.innerHTML = " ";
 
     }
   }
@@ -68,13 +68,13 @@ async function searchSongs(term) {
   `;
 
     }
-  more.innerHTML = " ";
+  forMore.innerHTML = " ";
 
 
   }
 
 
-// Prevent Default Activity of The Form
+// Prevent Default Activity of The Form --validate the form
 
 forForm.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -87,4 +87,6 @@ forForm.addEventListener('submit', (event) => {
     searchSongs(enteredItem);
   }
 
-})
+});
+
+// Adding the 
