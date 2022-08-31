@@ -25,7 +25,9 @@ async function searchSongs(term) {
         .join("")}
     </ul>
    `;
-// Create Navigating Buttons For the Previous and Next Search Results
+  
+
+// Create Navigating Buttons For the Previous and Next Search Results to Get Us More Results
     if (data.prev || data.next) {
       forMore.innerHTML = `
         ${
@@ -45,7 +47,7 @@ async function searchSongs(term) {
   }
 
   // Fetching our songs from this server for more options of
-  async function findMoreSongs(url) {
+  async function getMoreSongs(url) {
     const response = await fetch(`https://echo.hoppscotch.io/${url}`);
     const data = await response.json();
 
@@ -68,7 +70,6 @@ async function searchSongs(term) {
 
     }
   forMore.innerHTML = " ";
-
   }
 
 // Prevent Default Activity of The Form --validate the form
@@ -87,8 +88,8 @@ forForm.addEventListener('submit', (event) => {
 
 // Adding the click event listener for getting the lyrics
 
-forResult.addEventListener("click", (event) => {
-  const clickedResult = event.target;
+forResult.addEventListener("click", (evnt) => {
+  const clickedResult = evnt.target;
 
   if (clickedResult.tagName === "BUTTON") {
     const artist = clickedResult.getAttribute("data-artist");
