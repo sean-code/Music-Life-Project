@@ -111,23 +111,23 @@ figure .slides p{
 section{
     color: white;
     margin-top: 5%;
-    background-size: ;
     text-align: center;
 }
 
 /* More Buttons */
 .btn {
     padding: 4px;
+    border-radius: 7px;
     background-color: yellowgreen;
 }
 
 /* Feedback Section */
 #feedback-section{
     color: white;
-    background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    background-blend-mode: darken;
+    background: rgba(0, 0, 0, 0.6)url('../images/alexander-shatov-qt7S2QuAhJI-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-blend-mode: darken;
 
 }
 #feedback-section h2{
@@ -135,8 +135,8 @@ section{
     font-family: 'Franklin Gothic Medium';
     font-size: larger;
     text-align: center;
-    margin: 0.1% 3% 10% 4%;
-    padding-top: 2%;
+    margin: 0% 3% 8% 4%;
+    padding-top: 3%;
 }
 #feedback-section h2 span{
     color:orange;
@@ -145,18 +145,19 @@ section{
 #feedback-section h3{
     color: Orange;
     text-align: center;
-    margin-top: 5%
+    margin-top: 2%;
 }
 #feedback-section li{
     text-align: center;
     list-style-type: none;
+    margin-bottom: 5%;
 }
 
 #feedback-form input{
     width: 30%;
     padding: 2%;
     margin-left: 32%;
-    margin-bottom: 10%;
+    margin-bottom: 25%;
 }
 #feedback-form button{
     width:10%;
@@ -169,12 +170,17 @@ section{
 
 /* Footer */
 #footer{
-    background-color: rgb(10, 14, 29);
     color: white;
-    /* margin-top: 20px; */
+    padding: 6% 6% 15% 0%;
+    background:rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1625480860519-98fca9e8c520?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG11c2ljJTIwc3ltYm9sfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #footer h5{
     color: orange;
+    font-size: larger;
+    text-align:left;
 }
 #follow{
     display: flex;
@@ -182,4 +188,6 @@ section{
 }
 #follow li{
     list-style: none;
+    background-color: rgb(57, 82, 8);
+    padding: 4% 4% 4% 4%;
 } 
