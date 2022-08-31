@@ -122,3 +122,28 @@ section{
     padding: 4px;
     background-color: yellowgreen;
 }
+
+
+/* Footer */
+#footer{
+    background-color: rgb(10, 14, 29);
+    color: white;
+    /* margin-top: 20px; */
+}
+#feedback{
+    width: 100%;
+    padding: 2% 50% 0% 42%;
+}
+#feedback button{
+    
+}
+#footer span{
+    color:orange;
+    font-size: x-large;
+}
+
+#footer h2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: larger;
+    text-align: center;
+}
