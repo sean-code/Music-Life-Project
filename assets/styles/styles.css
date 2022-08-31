@@ -116,3 +116,9 @@ section{
     margin-top: 5%;
     text-align: center;
 }
+
+/* More Buttons */
+.btn {
+    padding: 4px;
+    background-color: yellowgreen;
+}
