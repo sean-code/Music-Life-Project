@@ -41,7 +41,6 @@ async function searchSongs(term) {
       `;
     } else {
       forMore.innerHTML = " ";
-
     }
   }
 
@@ -70,9 +69,7 @@ async function searchSongs(term) {
     }
   forMore.innerHTML = " ";
 
-
   }
-
 
 // Prevent Default Activity of The Form --validate the form
 
@@ -86,7 +83,6 @@ forForm.addEventListener('submit', (event) => {
   } else {
     searchSongs(enteredItem);
   }
-
 });
 
 // Adding the click event listener for getting the lyrics
