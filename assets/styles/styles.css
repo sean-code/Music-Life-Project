@@ -10,7 +10,6 @@ header{
 }
 header h1{
     text-align: center;
-    font-size:xx-large;
     margin-top: 4vh;
     padding-bottom: 5vh;
     font-weight: 900;
@@ -140,8 +139,8 @@ section{
     font-family: 'Franklin Gothic Medium';
     font-size: larger;
     text-align: center;
-    margin: 0% 3% 8% 4%;
-    padding-top: 3%;
+    margin: 0% 3% 4% 4%;
+    padding-top: 1%;
 }
 #feedback-section h2 span{
     color:orange;
@@ -171,6 +170,7 @@ section{
     width:10%;
     border: none;
     padding: 10px 10px;
+    margin-bottom: 6%;
     background-color: orange;
     border-radius: 5px;
     cursor: pointer;
@@ -179,16 +179,16 @@ section{
 /* Footer */
 #footer{
     color: white;
-    padding: 6% 6% 15% 0%;
+    padding: 4% 6% 15% 0%;
     background:rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1625480860519-98fca9e8c520?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG11c2ljJTIwc3ltYm9sfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60');
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#footer h5{
+#footer h2{
+    text-align: center;
     color: orange;
-    font-size: larger;
-    text-align:left;
+    font-size: xx-large;
 }
 #follow{
     display: flex;
@@ -197,7 +197,89 @@ section{
 #follow li{
     list-style: none;
     background-color: rgb(57, 82, 8);
-    margin-top: 10%;
+    margin: 10% 2% 5% 2%;
     padding: 4% 4% 4% 4%;
     border-radius: 5%;
 } 
+#follow li img{
+    margin: 5px 5px 10px 5px;
+    height: 50%
+
+}
+#follow li p{
+    color: orange;
+    font-size: larger;
+}
+#footer h5{
+    color: orange;
+    font-size: larger;
+    text-align:left;
+    margin-top: 10%;
+}
+
+/* MEDIA QUERY --iPhone SE */
+
+
+/* Feedback Section*/
+@media (max-width: 375px){
+    #feedback-section h2{
+        color: white;
+        font-family: 'Franklin Gothic Medium';
+        font-size: smaller;
+        text-align: center;
+        margin: 0% 3% 4% 4%;
+        padding-top: 1%;
+    }
+    #feedback-section h2 span{
+        color:orange;
+        font-size: large;
+    }
+    #feedback-section h3{
+        color: Orange;
+        text-align: center;
+        margin-top: 2%;
+    }
+    #feedback-section li{
+        list-style-type: none;
+        margin: 2px 4px 3px 1px;
+        padding: 2% 0% 3% 2%;
+        text-align: center;
+        background-color: grey;
+        font-size: larger;
+    }
+    #feedback-form textarea{
+        width: 30%;
+        padding: 1%;
+        margin-left: 35%;
+        margin-bottom: 2%;
+    }
+    #feedback-form button{
+        width:25%;
+        border: none;
+        padding: 8px 5px;
+        margin-bottom: 0%;
+        background-color: orange;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+}
+
+/* Footer */
+
+@media (max-width: 375px){
+    #footer h2{
+    text-align: center;
+    color: orange;
+    font-size: large;
+}
+    #footer li p{
+        font-size: smaller;
+    }
+    #footer h5{
+        font-size: smaller;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
