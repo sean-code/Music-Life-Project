@@ -161,7 +161,7 @@ section{
     font-size: larger;
 }
 
-#feedback-form input{
+#feedback-form textarea{
     width: 25%;
     padding: 4%;
     margin-left: 35%;

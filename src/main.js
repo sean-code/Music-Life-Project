@@ -88,7 +88,7 @@ forForm.addEventListener('submit', (event) => {
 
 // Adding the click event listener for getting the lyrics
 
-forResult.addEventListener("click", (evnt) => {
+forResult.addEventListener('click', (evnt) => {
   const clickedResult = evnt.target;
 
   if (clickedResult.tagName === "BUTTON") {
@@ -98,4 +98,3 @@ forResult.addEventListener("click", (evnt) => {
     getLyrics(artist, songTitle);
   }
 });
-

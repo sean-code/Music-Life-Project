@@ -1,6 +1,7 @@
 // Displaying the Reviews Already On reviewdb.json
 const reviews = document.getElementById('feedback-list');
 const apiUrl = 'http://localhost:3000/feedback'
+const inputReview = document.getElementById('feedback-form')
 
 function getReviews(id){
     fetch(`${apiUrl}/${id}`)
@@ -16,13 +17,22 @@ function getReviews(id){
         .join("");
     })
 }
+
 // Add Event Listener that enables the loading of the webpage first before execution
 document.addEventListener('DOMContentLoaded', () =>{
     getReviews(1);
     getReviews(2);
 
+
+    // Adding Reviews -to append the existing list
+    inputReview.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        reviews.innerHTML += `<li>
+        ${document.getElementById('feedback').value}
+        </li>`;
+    })
 })
 
-// Adding Reviews -to append the existing list
-const inputName = document.getElementById('input-name');
-const inputReview = document.getElementById('input-review')
+
+
