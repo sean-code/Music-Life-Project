@@ -156,7 +156,9 @@ section{
 #feedback-section li{
     text-align: center;
     list-style-type: none;
-    margin-bottom: 5%;
+    margin: 2% 3% 1% 5%;
+    padding: 2% 3% 4% 5%;
+    background-color: grey;
 }
 
 #feedback-form input{
