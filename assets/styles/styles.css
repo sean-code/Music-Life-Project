@@ -93,7 +93,6 @@ figure .slides p{
     font-size: xx-large;
     margin: 20px 5px 2px 10px;
     padding:  10px;
-
 }
 @keyframes animate{
     0%{left:0}
@@ -217,8 +216,65 @@ section{
     margin-top: 10%;
 }
 
+
+
 /* MEDIA QUERY --iPhone SE */
 
+/*  Lyrics Form */
+
+@media (max-width: 375px){
+    #form input{
+        padding: 2px 100px 10px 100px;
+        width: 20%;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    #form button{
+        background-color: orange;
+        width:23%;
+        padding: 7px 5px;
+        margin-top: 5px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    
+}
+
+/* SLIDING IMAGES */
+@media (max-width: 375px){}
+    figure{
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    #slider-images{
+        overflow: hidden;
+    }
+    #slider-images p{
+        color: white;
+        text-align: center;
+        font-size: small;
+    }
+    #slider-images p span{
+        color: orange;
+        font-size: small;
+    }
+    #slider-images figure div{
+        float: left;
+        width: 20%;
+    }
+    #slider-images figure img{
+        width:40%;
+        height:30vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        border-radius: 35%;
+}
 
 /* Feedback Section*/
 @media (max-width: 375px){
@@ -264,22 +320,21 @@ section{
     }
 
 }
-
 /* Footer */
 
 @media (max-width: 375px){
     #footer h2{
-    text-align: center;
-    color: orange;
-    font-size: large;
-}
-    #footer li p{
-        font-size: smaller;
-    }
-    #footer h5{
-        font-size: smaller;
-        padding-top: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
+        text-align: center;
+        color: orange;
+        font-size: large;
+        }
+        #footer li p{
+            font-size: smaller;
+        }
+        #footer h5{
+            font-size: smaller;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
 }
