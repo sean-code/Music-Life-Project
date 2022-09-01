@@ -24,7 +24,6 @@ async function searchSongs(term) {
         .join("")}
     </ul>
    `;
-  
 
 // Create Navigating Buttons For the Previous and Next Search Results to Get Us More Results
     if (data.prev || data.next) {
@@ -72,7 +71,6 @@ async function searchSongs(term) {
   }
 
 // Prevent Default Activity of The Form --validate the form
-
 forForm.addEventListener('submit', (event) => {
   event.preventDefault();
 
@@ -86,7 +84,6 @@ forForm.addEventListener('submit', (event) => {
 });
 
 // Adding the click event listener for getting the lyrics
-
 forResult.addEventListener('click', (event) => {
   const clickedResult = event.target;
 
