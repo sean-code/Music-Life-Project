@@ -18,6 +18,7 @@ function getReviews(id){
     })
 }
 
+
 // Add Event Listener that enables the loading of the webpage first before execution
 document.addEventListener('DOMContentLoaded', () =>{
     getReviews(1);
@@ -33,6 +34,3 @@ document.addEventListener('DOMContentLoaded', () =>{
         </li>`;
     })
 })
-
-
-
