@@ -23,7 +23,7 @@ This work has been deployed on both GitHub and Heroku and can thus be viewed usi
 ## Project Setup Instructions
 To start using this project use the following commands:
 
-- `git clone https://github.com/sean-code/AgriPlus.git`
+- `git clone https://github.com/sean-code/Project.git`
 - `cd Music Life`
 - `atom .` (If Atom is your preferred text editor)
 - `code .` (If Visual Studio Code is your preferred text editor)
