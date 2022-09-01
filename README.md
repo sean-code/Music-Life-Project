@@ -38,23 +38,21 @@ To start using this project use the following commands:
 ![Ella](assets/images/Ella%20Mai%20Landing%20Page.png)
 
 
-
+### Making a Search -for example 'Bryson Tiller'
 ![Make Search](assets/images/Bryson%20Tiller%20Searched.png)
 
 
+
+### After Making Search
 ![Search Results](assets/images/Search%20Results.png)
 
 
-
+### Adding Reviews
 ![Reviews](assets/images/Reviews%20Part.png)
 
 
 
 ![Follow Me](assets/images/Follow%20Me.png)
-
-
-
-
 
 
 
