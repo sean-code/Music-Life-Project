@@ -3,18 +3,17 @@ const forSearch = document.querySelector("#search");
 const forResult = document.querySelector("#result");
 const forMore = document.querySelector("#more");
 
-const baseURL = "https://api.lyrics.ovh";
-
+const baseUrl = "https://api.lyrics.ovh";
 async function searchSongs(term) {
-    const response = await fetch(`${baseURL}/suggest/${term}`);
+    const response = await fetch(`${baseUrl}/suggest/${term}`);
     const data = await response.json();
   
     displayData(data);
   }
 
   function displayData(data) {
-    result.innerHTML = `
-    <ul class="songs">
+    forResult.innerHTML = `
+    <ul class= "songs">
       ${data.data
         .map(
           (song) => `<li>
@@ -42,7 +41,7 @@ async function searchSongs(term) {
         }
       `;
     } else {
-      forMore.innerHTML = " ";
+      forMore.innerHTML = "";
     }
   }
 
@@ -51,11 +50,11 @@ async function searchSongs(term) {
     const response = await fetch(`https://echo.hoppscotch.io/${url}`);
     const data = await response.json();
 
-    showData(data);
+    displayData(data);
   }
 
-  async function getLyrics(artist, songTitle) {
-    const response = await fetch(`${baseURL}/v1/${artist}/${songTitle}`);
+  async function getLyrics(artist, songTitle){
+    const response = await fetch(`${baseUrl}/v1/${artist}/${songTitle}`);
     const data = await response.json();
 
     if (data.error) {
@@ -88,12 +87,12 @@ forForm.addEventListener('submit', (event) => {
 
 // Adding the click event listener for getting the lyrics
 
-forResult.addEventListener('click', (evnt) => {
-  const clickedResult = evnt.target;
+forResult.addEventListener('click', (event) => {
+  const clickedResult = event.target;
 
   if (clickedResult.tagName === "BUTTON") {
-    const artist = clickedResult.getAttribute("data-artist");
-    const songTitle = clickedResult.getAttribute("data-songtitle");
+    const artist = clickedResult.getAttribute("data.artist");
+    const songTitle = clickedResult.getAttribute("data.songTitle");
 
     getLyrics(artist, songTitle);
   }
