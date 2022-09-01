@@ -11,6 +11,7 @@ function getReviews(id){
     })
 }
 
+
 // Adding Reviews
 // const inputName = document.getElementById('input-name');
 // const inputReview = document.getElementById('input-review')
