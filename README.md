@@ -9,9 +9,8 @@ This project is the development of a website application that provides you with 
 The idea is to provide entertainment to the user.
 The Project was done for the purpose of learning and to grasp hands-on skills in website application development and interaction with a public application programming interface as part of my Software Engineering journey. 
 
-![](image.png)
-![](image.png)
-
+![Drake](assets/images/Drake%20Landing%20Page.png)
+#### Landing Page
 
 ## Technology Used
 This was achieved through the use of 2 Public API's and one custom made JSON server.
@@ -24,6 +23,9 @@ However, each of the two seems to have a certain drawback, as sometimes the firs
 - `Music Life` application was built using HTML, CSS and JavaScript. 
 This work has been deployed on both GitHub and Heroku and can thus be viewed using this live link: https://sean-code.github.io/Project/
 
+![Bryson](assets/images/Tiller%20Landing%20Page.png)
+
++
 ## Project Setup Instructions
 To start using this project use the following commands:
 
@@ -31,6 +33,30 @@ To start using this project use the following commands:
 - `cd Music Life`
 - `atom .` (If Atom is your preferred text editor)
 - `code .` (If Visual Studio Code is your preferred text editor)
+
+
+![Ella](assets/images/Ella%20Mai%20Landing%20Page.png)
+
+
+
+![Make Search](assets/images/Bryson%20Tiller%20Searched.png)
+
+
+![Search Results](assets/images/Search%20Results.png)
+
+
+
+![Reviews](assets/images/Reviews%20Part.png)
+
+
+
+![Follow Me](assets/images/Follow%20Me.png)
+
+
+
+
+
+
 
 ## License Information
 MIT License
