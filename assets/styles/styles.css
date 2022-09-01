@@ -193,6 +193,7 @@ section{
 #follow li{
     list-style: none;
     background-color: rgb(57, 82, 8);
+    margin-top: 10%;
     padding: 4% 4% 4% 4%;
     border-radius: 5%;
 } 
