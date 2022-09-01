@@ -9,6 +9,10 @@ This project is the development of a website application that provides you with 
 The idea is to provide entertainment to the user.
 The Project was done for the purpose of learning and to grasp hands-on skills in website application development and interaction with a public application programming interface as part of my Software Engineering journey. 
 
+![](image.png)
+![](image.png)
+
+
 ## Technology Used
 This was achieved through the use of 2 Public API's and one custom made JSON server.
 The two public API's used are:
