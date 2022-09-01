@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 })
 
-// Adding Reviews
-// const inputName = document.getElementById('input-name');
-// const inputReview = document.getElementById('input-review')
+// Adding Reviews -to append the existing list
+const inputName = document.getElementById('input-name');
+const inputReview = document.getElementById('input-review')
