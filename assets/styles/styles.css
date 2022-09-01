@@ -222,7 +222,7 @@ section{
 
 /*  Lyrics Form */
 
-@media (max-width: 375px){
+/* @media (max-width: 375px){
     #form input{
         padding: 2px 100px 10px 100px;
         width: 20%;
@@ -245,7 +245,7 @@ section{
 }
 
 /* SLIDING IMAGES */
-@media (max-width: 375px){}
+/* @media (max-width: 375px){}
     figure{
         margin-top: 0%;
         margin-bottom: 2%;
@@ -274,10 +274,10 @@ section{
         background-repeat: no-repeat;
         float: left;
         border-radius: 35%;
-}
+} */ */
 
 /* Feedback Section*/
-@media (max-width: 375px){
+/* @media (max-width: 375px){
     #feedback-section h2{
         color: white;
         font-family: 'Franklin Gothic Medium';
@@ -319,10 +319,10 @@ section{
         cursor: pointer;
     }
 
-}
+} */
 /* Footer */
 
-@media (max-width: 375px){
+/* @media (max-width: 375px){
     #footer h2{
         text-align: center;
         color: orange;
@@ -337,4 +337,4 @@ section{
             margin-top: 0px;
             margin-bottom: 0px;
         }
-}
+} */
