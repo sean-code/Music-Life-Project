@@ -10,7 +10,7 @@ header{
 }
 header h1{
     text-align: center;
-    font-size:xxx-large ;
+    font-size:xx-large;
     margin-top: 4vh;
     padding-bottom: 5vh;
     font-weight: 900;
@@ -32,20 +32,23 @@ header span{
 }
 /* MAIN CONTENT */
 #form{
+    padding-top: 2%;
     margin-bottom:1%;
     display: flex;
     justify-content: center;
 }
 #form input{
-    padding: 10px 40px;
+    padding: 20px 40px;
     width: 30%;
     border: none;
     outline: none;
 }
 #form button{
     background-color: orange;
-    padding: 8px 10px;
+    padding: 15px 20px;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 /* SLIDING IMAGES */
@@ -110,7 +113,8 @@ figure .slides p{
 /* Section That Displays Lyrics */
 section{
     color: white;
-    margin-top: 5%;
+    margin-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
 }
 
@@ -140,7 +144,7 @@ section{
 }
 #feedback-section h2 span{
     color:orange;
-    font-size: x-large;
+    font-size: xx-large;
 }
 #feedback-section h3{
     color: Orange;
@@ -161,11 +165,11 @@ section{
 }
 #feedback-form button{
     width:10%;
-    border: 2%;
-    padding: 7px 2px 3px 2px;
-    margin: 60px 80px 40px 0px;
+    border: none;
+    padding: 10px 10px;
     background-color: orange;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -190,4 +194,5 @@ section{
     list-style: none;
     background-color: rgb(57, 82, 8);
     padding: 4% 4% 4% 4%;
+    border-radius: 5%;
 } 
