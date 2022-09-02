@@ -23,7 +23,7 @@ The two public API's used are:
 However, each of the two seems to have a certain drawback, as sometimes the first one fails while the latter is limited per the number of requests one can GET per given time.
 
 - `Music Life` application was built using HTML, CSS and JavaScript. 
-This work has been deployed on both GitHub and Heroku and can thus be viewed using this live link: https://sean-code.github.io/Project/
+This work has been deployed on both GitHub and Heroku and can thus be viewed using this live link: https://sean-code.github.io/Music-Life-Project/
 
 ![Bryson](assets/images/Tiller%20Landing%20Page.png)
 
@@ -31,7 +31,8 @@ This work has been deployed on both GitHub and Heroku and can thus be viewed usi
 ## Project Setup Instructions
 To start using this project use the following commands:
 
-- `git clone https://github.com/sean-code/Project.git`
+- `git clone https://github.com/sean-code/Music-Life-Project.git`
+
 - `cd Music Life`
 - `atom .` (If Atom is your preferred text editor)
 - `code .` (If Visual Studio Code is your preferred text editor)
