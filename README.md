@@ -7,16 +7,18 @@
 ## Project Description
 This project is the development of a website application that provides you with lyrics to all genres of music.
 The idea is to provide entertainment to the user.
-The Project was done for the purpose of learning and to grasp hands-on skills in website application development and interaction with a public application programming interface as part of my Software Engineering journey. 
+The Project was done for the purpose of learning and to grasp hands-on skills in website application development and interaction with a public application programming interface as part of my Software Engineering journey.
 
-![Drake](assets/images/Drake%20Landing%20Page.png)
+
 #### Landing Page
+![Drake](assets/images/Drake%20Landing%20Page.png)
+
 
 ## Technology Used
 This was achieved through the use of 2 Public API's and one custom made JSON server.
 The two public API's used are:
 - [lyrics-ovh](https://api.lyrics.ovh)
-- [hoppscotch] (https://echo.hoppscotch.io)
+- [hoppscotch](https://echo.hoppscotch.io)
 
 However, each of the two seems to have a certain drawback, as sometimes the first one fails while the latter is limited per the number of requests one can GET per given time.
 
