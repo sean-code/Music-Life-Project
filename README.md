@@ -2,7 +2,7 @@
 ##### --The Lyrics Website
 
 ## Author
-- [sean-code](https://github.com/sean-code)
+- [John Nganga](https://github.com/sean-code)
 
 ## Project Description
 This project is the development of a website application that provides you with lyrics to all genres of music.
