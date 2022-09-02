@@ -20,8 +20,8 @@ function getReviews(id){
 
 // Add Event Listener that enables the loading of the webpage first before execution
 document.addEventListener('DOMContentLoaded', () =>{
-    getReviews(1);
     getReviews(2);
+    getReviews(1);
 
     // Adding Reviews -to append the existing list
     inputReview.addEventListener('submit', (event) => {
