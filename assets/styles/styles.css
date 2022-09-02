@@ -152,9 +152,9 @@ section{
 }
 #feedback-section li{
     list-style-type: none;
-    margin: 2% 20% 2% 20%;
+    margin: 2% 20% 2% 30%;
     padding: 2% 0% 3% 2%;
-    text-align: center;
+    text-align:start;
     background-color: grey;
     font-size: larger;
 }
