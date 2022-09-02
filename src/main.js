@@ -24,8 +24,9 @@ async function searchSongs(term) {
         .join("")}
     </ul>
    `;
+  
 
-// Create Navigating Buttons For the Previous and Next Search Results to Get Us More Results
+// Create Navigating Buttons For the Previous and Next Search Results to Get Us More Search Results
     if (data.prev || data.next) {
       forMore.innerHTML = `
         ${
