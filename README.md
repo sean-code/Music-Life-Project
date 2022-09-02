@@ -2,6 +2,7 @@
 ##### --The Lyrics Website
 
 ## Author
+![sean-code](.../https://avatars.githubusercontent.com/u/108471416?v=4)
 - [John Nganga](https://github.com/sean-code)
 
 ## Project Description

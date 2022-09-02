@@ -27,7 +27,6 @@ header span{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
-
 }
 /* MAIN CONTENT */
 #form{
@@ -218,11 +217,12 @@ section{
 
 
 
-/* MEDIA QUERY --iPhone SE */
+/* MEDIA QUERIES */
+
+/*  --iPhone SE */
 
 /*  Lyrics Form */
-
-/* @media (max-width: 375px){
+@media only screen and (max-width: 375px){
     #form input{
         padding: 2px 100px 10px 100px;
         width: 20%;
@@ -241,11 +241,10 @@ section{
         cursor: pointer;
         
     }
-    
 }
 
 /* SLIDING IMAGES */
-/* @media (max-width: 375px){}
+@media only screen and (max-width: 375px){
     figure{
         margin-top: 0%;
         margin-bottom: 2%;
@@ -273,11 +272,13 @@ section{
         background-position: center;
         background-repeat: no-repeat;
         float: left;
-        border-radius: 35%;
-} */ 
-
-/* Feedback Section*/
-/* @media (max-width: 375px){
+        border-radius: 45%;
+    }
+    /* Result */
+    section #result li{
+        font-size: large;
+    }
+    /* Feedback Section*/
     #feedback-section h2{
         color: white;
         font-family: 'Franklin Gothic Medium';
@@ -294,10 +295,11 @@ section{
         color: Orange;
         text-align: center;
         margin-top: 2%;
+        font-size: large;
     }
     #feedback-section li{
         list-style-type: none;
-        margin: 2px 4px 3px 1px;
+        margin: 2px 50px 2px 50px;
         padding: 2% 0% 3% 2%;
         text-align: center;
         background-color: grey;
@@ -312,17 +314,13 @@ section{
     #feedback-form button{
         width:25%;
         border: none;
-        padding: 8px 5px;
+        padding: 6px 5px;
         margin-bottom: 0%;
         background-color: orange;
         border-radius: 6px;
         cursor: pointer;
     }
-
-} */
-/* Footer */
-
-/* @media (max-width: 375px){
+        /* Footer */
     #footer h2{
         text-align: center;
         color: orange;
@@ -330,6 +328,7 @@ section{
         }
         #footer li p{
             font-size: smaller;
+            margin-top: 1%;
         }
         #footer h5{
             font-size: smaller;
@@ -337,4 +336,403 @@ section{
             margin-top: 0px;
             margin-bottom: 0px;
         }
- } */
+
+} 
+
+/* For iPhone XR*/
+
+@media only screen and (max-width: 414px){
+    /* Slider Images */
+    #slider-images{
+        overflow: hidden;
+    }
+    #slider-images p{
+        color: white;
+        text-align: center;
+        font-size: small;
+    }
+    #slider-images p span{
+        color: orange;
+        font-size: small;
+    }
+    #slider-images figure div{
+        float: left;
+        width: 20%;
+    }
+    #slider-images figure img{
+        width:40%;
+        height:30vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        border-radius: 45%;
+    }
+    /* Result */
+    section #result li{
+        font-size: large;
+    }
+    /* Feedback */
+    #feedback-form button{
+        width:25%;
+        border: none;
+        padding: 6px 5px;
+        background-color: orange;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    /* Footer */
+    #footer h2{
+        text-align: center;
+        color: orange;
+        font-size: large;
+        }
+        #footer li p{
+            font-size: smaller;
+            margin-top: 1%;
+        }
+        #footer h5{
+            font-size: smaller;
+        }
+
+}
+/* iPad Air */
+@media only screen and (width: 820px){
+        /* Slider Images */
+    figure{
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    #slider-images{
+        overflow: hidden;
+    }
+    #slider-images p{
+        color: white;
+        text-align: center;
+        font-size: larger;
+    }
+    #slider-images p span{
+        color: orange;
+        font-size: larger;
+    }
+    #slider-images figure div{
+        float: left;
+        width: 20%;
+    }
+    #slider-images figure img{
+        width:40%;
+        height:30vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        border-radius: 20%;
+    }
+        /* Result */
+    section #result li{
+        font-size: larger;
+    }
+    section .btn{
+        padding:8px;
+    }
+}
+
+/* Surface Pro 7 */
+@media only screen and (width: 912px){
+    /* Form Search */
+    #form input{
+        padding: 25px 40px;
+        width: 40%;
+        border: none;
+        outline: none;
+    }
+    #form button{
+        background-color: orange;
+        padding: 15px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    /* Images */
+    figure{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #slider-images{
+        overflow: hidden;
+    }
+    #slider-images p{
+        color: white;
+        text-align: center;
+        font-size: xx-larger;
+    }
+    #slider-images p span{
+        color: orange;
+        font-size: larger;
+    }
+    #slider-images figure div{
+        float: left;
+        width: 20%;
+    }
+    #slider-images figure img{
+        width:40%;
+        height:30vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        border-radius: 20%;
+    }
+        /* Feedback */
+    #feedback-form button{
+        width:20%;
+        border: none;
+        padding: 6px 5px;
+        margin-bottom: 0%;
+        background-color: orange;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+        /* Footer */
+    #footer h2{
+        text-align: center;
+        color: orange;
+        font-size: xx-large;
+    }
+    #footer li p{
+            font-size: larger;
+            margin-top: 1%;
+    }
+    #follow li img{
+            margin: 5px 5px 10px 5px;
+            height: 60%
+        
+    }
+    #footer h5{
+            font-size: xx-large;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+    }
+}
+/* Surface Duo */
+@media only screen and (width: 540px){
+        /* Form Search */
+    #form input{
+        padding: 2px 30px;
+        width: 30%;
+        border: none;
+        outline: none;
+    }
+    #form button{
+        background-color: orange;
+        padding: 15px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    /* Images */
+    figure{
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    #slider-images{
+        overflow: hidden;
+    }
+    #slider-images p{
+        color: white;
+        text-align: center;
+        font-size: large;
+    }
+    #slider-images p span{
+        color: orange;
+        font-size: larger;
+    }
+    #slider-images figure img{
+        width:30%;
+        height:30vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        border-radius: 20%;
+    }
+     /* Result */
+    section #result li{
+        font-size: large;
+    }
+    section .btn{
+        padding:4px;
+    }
+    #feedback-section h2 span{
+        color:orange;
+        font-size: larger;
+    }
+
+        /* Footer */
+    #footer h2{
+        text-align: center;
+        color: orange;
+        font-size: larger;
+    }
+    #footer li p{
+            font-size: large;
+            margin-top: 1%;
+    }
+    #follow li img{
+            margin: 5px 5px 10px 5px;
+            height: 60%
+        
+    }
+    #footer h5{
+            font-size: larger;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+    }
+
+}
+
+/* Galaxy Fold */
+@media only screen and (width: 280px){
+    /* Header */
+    header h1{
+        font-size: larger;
+        text-align: center;
+        margin-top: 4vh;
+        padding-bottom: 5vh;
+        font-weight: 900;
+        color: orange;
+    }
+    header span{
+        font-size:small;
+        color: yellowgreen
+    }
+    #form{
+        padding-top: 2%;
+        margin-bottom:1%;
+        display: flex;
+        justify-content: center;
+    }
+    /* Form Input  */
+    #form input{
+        padding: 5px 35px;
+        width: 30%;
+        border: none;
+        outline: none;
+    }
+    #form button{
+        background-color: orange;
+        padding: 10px 8px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    /* Figure */
+    figure{
+        margin-top: 1%;
+        margin-bottom: 25%;
+    }
+    #slider-images p{
+        color: white;
+        text-align: center;
+        font-size: small;
+    }
+    #slider-images p span{
+        color: orange;
+        font-size: small;
+    }
+    #slider-images figure img{
+        width:25%;
+        height:20vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        border-radius: 10%;
+    }
+    figure .slides p{
+        position:absolute;
+        text-align:center;
+        background-color: orange;
+        font-size: small;
+        margin: 1px 2px 1px 2px;
+        padding: 1px;
+    }
+        /* Result */
+    section #result li{
+        font-size: small;
+    }
+    section .btn{
+        padding:3px;
+    }
+    /* Feedback section */
+    #feedback-section h3{
+        color: Orange;
+        text-align: center;
+        font-size: small;
+        margin-top: 2%;
+    }
+    #feedback-form textarea{
+        width: 25%;
+        padding: 4%;
+        margin-left: 25%;
+        margin-bottom: 2%;
+    }
+    #feedback-form button{
+        width:20%;
+        border: none;
+        padding: 6px 2px;
+        margin-bottom: 6%;
+        background-color: orange;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+            /* Footer */
+    #footer h2{
+        margin-top: 1%;
+        text-align: center;
+        color: orange;
+        font-size: small;
+    }
+    #footer li p{
+            font-size: small;
+            margin-top: 1px;
+    }
+    #follow li img{
+            margin: 1px 2px 2px 2px;
+            height: 40%  
+    }
+    #footer h5{
+            font-size: small;
+    }
+}
+
+@media only screen and (width: 667px){
+    #slider-images p{
+        color: white;
+        text-align: center;
+        font-size: small;
+    }
+    #slider-images p span{
+        color: orange;
+        font-size: small;
+    }
+    #slider-images figure img{
+        width:20%;
+        height:50vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        border-radius: 10%;
+    }
+    figure .slides p{
+        position:absolute;
+        text-align:center;
+        background-color: orange;
+        font-size: large;
+        margin: 10px 2px 1px 2px;
+        padding: 8px;
+    }
+}
