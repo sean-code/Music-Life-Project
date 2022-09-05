@@ -1,6 +1,6 @@
 // Displaying the Reviews Already On reviewdb.json
 const reviews = document.getElementById('feedback-list');
-const apiUrl = 'http://localhost:3000/feedback'
+const apiUrl = 'https://pacific-shelf-80927.herokuapp.com/feedback'
 const inputReview = document.getElementById('feedback-form')
 
 function getReviews(id){
