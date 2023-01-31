@@ -195,9 +195,9 @@ section{
 #follow li{
     list-style: none;
     background-color: rgb(57, 82, 8);
-    margin: 10% 2% 5% 2%;
-    padding: 4% 4% 4% 4%;
-    border-radius: 5%;
+    margin: 2% 2% 1% 2%;
+    padding: 2%;
+    border-radius: 8%;
 } 
 #follow li img{
     margin: 5px 5px 10px 5px;
